@@ -12,8 +12,8 @@ export const Cta = () => {
             Click here to Request a Quote
           </span>
         </Link>
-        <a href="tel:0000000000" className="main-cta-card">
-          <span className="main-cta"> Or Call Us: 000.000.0000</span>
+        <a href="tel:5622093674" className="main-cta-card">
+          <span className="main-cta"> Or Call Us: 562.209.3674</span>
         </a>
       </section>
     </>
