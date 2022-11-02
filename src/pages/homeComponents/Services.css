@@ -1,0 +1,48 @@
+.services-container {
+  width: 100%;
+  padding: 5vh 0 10vh 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 80px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(98, 86, 192),
+    rgb(29, 21, 97)
+  );
+  color: white;
+}
+.services-title {
+  flex-basis: 100%;
+  font-size: 2.6rem;
+  text-align: center;
+}
+.service-card {
+  flex-basis: 40%;
+  max-width: 450px;
+}
+.service-card-title {
+  font-size: 1.8rem;
+  margin: 0 0 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.service-description {
+  width: 350px;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .service-card {
+    flex-basis: 60%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .service-card {
+    flex-basis: 90%;
+  }
+  .service-description {
+    width: 250px;
+  }
+}

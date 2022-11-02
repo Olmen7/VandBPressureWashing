@@ -1,0 +1,67 @@
+.myGoal-section {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.myGoal-left {
+  margin: 0 0 30px 50px;
+  flex-basis: 40%;
+  box-shadow: 3px 3px 10px black;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  flex-wrap: wrap;
+  padding: 0 0 20px 0;
+}
+.myGoal-title {
+  flex-basis: 100%;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+  color: #e0ba3c;
+}
+.myGoal-description {
+  font-size: 1.4rem;
+  width: 80%;
+  text-align: center;
+  color: #3233a2;
+}
+.myGoal-right {
+  flex-basis: 40%;
+}
+.myGoal-img {
+  width: 600px;
+  height: 400px;
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("https://images.pexels.com/photos/5313361/pexels-photo-5313361.jpeg?");
+  /* background: url("https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?"); */
+  background-size: cover;
+  margin: 10vh 0;
+  box-shadow: 2px 2px 10px black;
+  border: 5px solid white;
+}
+
+@media screen and (max-width: 800px) {
+  .myGoal-img {
+    width: 350px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .myGoal-left {
+    flex-basis: 90%;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 350px) {
+  .myGoal-img {
+    width: 300px;
+  }
+}

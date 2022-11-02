@@ -1,0 +1,42 @@
+.titleText {
+  position: relative;
+  animation: flow forwards 0.75s;
+  opacity: 0;
+}
+@keyframes flow {
+  0% {
+    opacity: 1;
+    bottom: -0.2rem;
+  }
+  50% {
+    bottom: 0.2rem;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0;
+  }
+}
+.title-show {
+  display: none;
+}
+/* Footer */
+footer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 5px 0;
+}
+@media screen and (max-width: 450px) {
+  footer {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  footer {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  footer {
+    font-size: 0.6rem;
+  }
+}
