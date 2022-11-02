@@ -17,6 +17,7 @@ label {
   flex-basis: 100%;
 }
 input {
+  font-size: 1.3rem;
   width: 80%;
   margin: 0 auto 20px auto;
 }
@@ -50,6 +51,7 @@ input {
   font-size: 1.2rem;
 }
 textarea {
+  font-size: 1.3rem;
   resize: none;
   margin: 0 auto;
 }
